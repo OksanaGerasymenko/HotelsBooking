@@ -1,0 +1,24 @@
+[
+    {
+        "_id": "b0e6e6c6-8c13-406f-8538-f17ab1fdde7c",
+        "dateFrom": "",
+        "dateTo": "",
+        "roomId": "",
+        "roomNumber": 405,
+        "userId": "",
+        "countAdult": "",
+        "countChildren": "",
+        "ageChildren": []
+    },
+    {
+        "_id": "5ce5145f-6b2f-42e8-8c9b-2a63cace8373",
+        "dateFrom": "",
+        "dateTo": "",
+        "roomId": "",
+        "roomNumber": 112,
+        "userId": "",
+        "countAdult": "",
+        "countChildren": "",
+        "ageChildren": []
+    }
+]

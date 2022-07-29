@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "ecc1d9d6-2b6d-4c1b-bd74-13bf5c98153b",
+        "name": "Wi-Fi",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/wifi--v1.png"
+    },
+    {
+        "_id": "a6694ecf-ca7f-4686-b78a-e8ff2cdfc9dc",
+        "name": "swimming pool",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/swimming.png"
+    },
+    {
+        "_id": "c0837684-e620-45ef-ac94-edb18a1ac7b0",
+        "name": "parking",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/parking.png"
+    },
+    {
+        "_id": "6283db0b-d5ed-4e61-816b-0b00e2944022",
+        "name": "gym",
+        "image": "https://img.icons8.com/external-hidoc-kerismaker/32/000000/external-Dumbbell-fitness-hidoc-kerismaker.png"
+    },
+    {
+        "_id": "d7c7d7e0-0f55-4121-9f5a-c0e9ba85b18b",
+        "name": "facilities for disabled guests",
+        "image": "https://img.icons8.com/color/48/000000/wheelchair.png"
+    },
+    {
+        "_id": "e93a27e9-d648-42e9-a2f1-cdad18480bf6",
+        "name": "transfer",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/car.png"
+    },
+    {
+        "_id": "5d4e4eb2-7347-4257-a2a2-57c223193cbc",
+        "name": "restourant",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/food.png"
+    },
+    {
+        "_id": "ef5223b1-db97-4bfc-8c7c-c09035463bed",
+        "name": "SPA",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/swimming.png"
+    },
+    {
+        "_id": "df5a488a-9750-414f-8b85-b0c7bc66a7c1",
+         "name": "dry cleaning",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/washing-machine.png"
+    },
+    {
+        "_id": "61852802-3266-4df1-883d-56fc9fb96e11",
+        "name": "accommodation with pets",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/dog.png"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "16f4701d-0258-434a-aa69-9b2e9befef8f",
+        "name": "USA"
+    },
+    {
+        "_id": "70350db8-7aa6-40d2-bae7-3110c94dd26e",
+        "name": "Canada"
+    },
+    {
+        "_id": "b518b858-2edc-492e-945b-314a60e0ada9",
+        "name": "Ukraine"
+    },
+    {
+        "_id": "701b85c7-8974-446c-8b3f-9561847c297a",
+        "name": "China"
+    },
+    {
+        "_id": "bf224184-9d50-4057-b31e-f81faa09d966",
+        "name": "Italy"
+    },
+    {
+        "_id": "39270be9-3595-4796-85b2-496e5669de15",
+        "name": "Spain"
+    },
+    {
+        "_id": "557b4460-8491-473f-98e7-a3da296e1523",
+        "name": "France"
+    },
+    {
+        "_id": "276180db-55ab-45b0-8979-7de78e184e81",
+        "name": "England"
+    },
+    {
+        "_id": "24080df8-ee04-4b25-8b63-69ae79eceb6f",
+        "name": "Poland"
+    },
+    {
+        "_id": "68d61dc4-4fd1-4581-9ae9-0b65aad32f38",
+        "name": "Germany"
+    }
+]

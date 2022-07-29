@@ -1,0 +1,26 @@
+[
+    {
+        "_id": "f3872c7a-6df9-48f8-a13e-6c3a341a35a3",
+        "name": "123",
+        "hotelId": "123",
+        "maxCountMembers": 4,
+        "price": 440,
+        "description": "123",
+        "images": [],
+        "servicesFree": [],
+        "servicesPaid": [],
+        "hotelRoomNumbers": [205, 206, 210, 128, 130, 131]
+    },
+    {
+        "_id": "7b61ea01-4806-43e2-8f77-68c05a31d25a",
+        "name": "",
+        "hotelId": "",
+        "maxCountMembers": 0,
+        "price": 0,
+        "description": "",
+        "images": [],
+        "servicesFree": [],
+        "servicesPaid": [],
+        "hotelRoomNumbers": [102, 112, 113, 114]
+    }
+]

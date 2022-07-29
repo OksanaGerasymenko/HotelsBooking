@@ -1,0 +1,45 @@
+[    
+    {
+        "_id": "9cdfe09b-25d8-4653-83fb-913840adec1d",
+        "name": "Super Admin",
+        "role":"admin",
+        "email": "admin@admin.com",
+        "password": "admin",
+        "contactInfo": "380991112233",
+        "history": [],
+        "discount": 0,
+        "discountPersonalPercent": 10
+    },
+    {
+        "_id": "246f6235-5880-4c76-8819-37242303af90",
+        "name": "John Doriahn",
+        "role":"user",
+        "email": "Jony7351@tw.com",
+        "password": "b2C!9bmE",
+        "contactInfo": "380661112233",
+        "history": [],
+        "discount": 50,
+        "discountPersonalPercent": 0
+    },
+    {
+        "_id": "6e634ed1-b387-4f64-a509-55a92a22a324",
+        "name": "Lizz Koksynilt",
+        "role":"user",
+        "email": "white4571@twipet.com",
+        "password": "NSF-kQ7p",
+        "history": [],
+        "discount": 0,
+        "discountPersonalPercent": 3
+    },
+    {
+        "_id": "59969be5-7549-46fb-8c9c-d6b9c6703cff",
+        "name": "Rachel Green",
+        "role":"user",
+        "email": "green7311@fam.biz",
+        "password": "V7&Ks6D",
+        "contactInfo": "380674445566",
+        "history": [],
+        "discount": 0,
+        "discountPersonalPercent": 0
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "_id": "6085ebb7-d500-4953-8174-e9a5bfbae015",
+        "name": "The Village Inn HotelOpens in new window",
+        "countryID": "",
+        "cityID": "",
+        "address": "",
+        "discription": "Located in Milwaukee, The Village Inn Hotel has 1-star accommodations with private balconies. Featuring a bar, the 1-star hotel has air-conditioned rooms with free WiFi. Private parking can be arranged at an extra charge.    At the hotel, the rooms are equipped with a desk, a flat-screen TV, a private bathroom, bed linen and towels. All rooms will provide guests with a microwave. Speaking English, Spanish and Hindi, staff are willing to help at the 24-hour front desk. Marquette University is 2.1 km from The Village Inn Hotel, while Miller Park is 2.9 km from the property. The nearest airport is General Mitchell International Airport, 14.5 km from the accommodation.",
+        "rate": 5.8,
+        "stars": 1,
+        "distToCenter": 0,
+        "distToAirport": 0,
+        "distToRailwayStation": 0,
+        "servicesFree": [],
+        "servicesPaid": [],
+        "images": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/209750789.jpg?k=30f103f286ed4fb197c4c7f8a923854c0c0a5bca6dc60c5eb8cf9411dc69034c&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/223034890.jpg?k=c5eabe9818dee404e815c342056cee7e8ccc3a66ffc078c1c818a4a9a301420b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/209750810.jpg?k=bba1c730c87bce726f5c0ccd84199a485b4dd679997a367c3e38a0095ae7f8f1&o=&hp=1"
+        ]
+    },
+    {
+        "_id": "704ac7c8-5072-44e4-a138-01a28b2029b3",
+        "name": "Factors Row I Sextant",
+        "countryID": "",
+        "cityID": "",
+        "address": "",
+        "discription": "Set in New Orleans, Louisiana, 800 metres from Bourbon Street, Factors Row I Sextant boasts a fully-equipped kitchen, 2 flat-screen cable TVs and central air conditioning. World War 2 Museum is 800 metres away. Free WiFi is available throughout the property",
+        "rate": 0,
+        "stars": 0,
+        "distToCenter": 0,
+        "distToAirport": 0,
+        "distToRailwayStation": 0,
+        "servicesFree": [],
+        "servicesPaid": [],
+        "images": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269465093.jpg?k=ab7f7d3ce1e65adcd75c7371f1a12ee46720e718264638b76fba2886859b1af7&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273009061.jpg?k=80390123024be781026e0ef89f3b6154cfb76eb3503d5d8d9b06138476b4433b&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273009011.jpg?k=72fcecc27bf20bf64225c9b06bb18fef6cce9b18c27d9d9c59d2853d6a2051ba&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273009013.jpg?k=af6843eedc7c228de51841d9e9d362083bb16b087a6ec8ee484a3b7f82714a15&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273009015.jpg?k=8ce992834d29517113928cf7d21f493235022b1a3e1f1178b4367eb28c838d36&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273009029.jpg?k=49a7b09be5facc61526a301e8cb1fd318509e421da1662324b3e843e1101de93&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/266552455.jpg?k=d5482883ec72ec8adfa16065ce7373de058f20c65e204d3b9e42ad08a76cd16c&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273009054.jpg?k=02cedcf71511f041c14b0e26acc0b93d8e153f1ac3412fe2d4cfa7116b0f3801&o=&hp=1"
+        ]
+    }
+]

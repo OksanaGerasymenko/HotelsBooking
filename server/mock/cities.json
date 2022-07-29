@@ -1,0 +1,118 @@
+[
+    {
+        "_id":"dcdc47e0-c8c8-4d0d-b142-d35beeff1139",
+        "name": "Mykolayiv"
+    },
+    {
+        "_id":"44d8565d-0643-48e7-981d-ba6e0c1ef2b6",
+        "name": "Kyiv"
+    },
+    {
+        "_id":"868217e0-5ce7-4076-b75a-952e22b01018",
+        "name": "Lviv"
+    },
+    {
+        "_id":"16c7a03e-c29f-4b78-8bbc-b09050f9d67f",
+        "name": "Odesa"
+    },
+    {
+        "_id":"740b14b2-80f2-405a-a14f-fd0d0b92af77",
+        "name": "Kharkiv"
+    },
+    {
+        "_id":"fdaf10bd-928d-42c5-a67c-17737e21ec7d",
+        "name": "Sacramento"
+    },
+    {
+        "_id":"48a86f45-9446-4cfa-96c0-48d23219fccf",
+        "name": "Washington"
+    },
+    {
+        "_id":"85d8296f-f01e-4ddf-934c-3c8667404800",
+        "name": "New York"
+    },
+    {
+        "_id":"973b3461-46e7-42d6-afa4-8f1e6cb2574d",
+        "name": "Milano"
+    },
+    {
+        "_id":"dc02d732-6da6-44cd-a7e0-56be4820fb93",
+        "name": "Roma"
+    },
+    {
+        "_id":"f91901d1-2a52-4675-8a1c-44035c3cf096",
+        "name": "Palermo"
+    },
+    {
+        "_id":"fb6f1eb2-5c9c-4f5d-81dd-1288a29cd6c0 ",
+        "name": "Madrid"
+    },
+    {
+        "_id":"d9bbc2f2-e9b2-4e76-a716-2f037e66e7a7",
+        "name": "Barcelona"
+    },
+    {
+        "_id":"8206f801-f2a3-4c13-bf70-fdad481a9d5b",
+        "name": "Valencia"
+    },
+    {
+        "_id":"26864d3b-3903-48f2-8d59-38c0ee242bd7",
+        "name": "Warsaw"
+    },
+    {
+        "_id":"9cd512de-8a97-4062-9ec6-98f723338765",
+        "name": "Radom"
+    },
+    {
+        "_id":"5d633a60-0ff4-4601-8b4e-33ae69ee3816",
+        "name": "Derlin"
+    },
+    {
+        "_id":"f6db9bb4-3dd2-4ead-a7f5-e13482f5d0ec",
+        "name": "Dresden"
+    },
+    {
+        "_id":"358229f8-3fcb-4007-bcfc-51b122fb5ad3",
+        "name": "Hamburg"
+    },
+    {
+        "_id":"8f2dcae0-895d-4804-88b1-4ebdba9d9e0f",
+        "name": "Paris"
+    },
+    {
+        "_id":"ad3c9fe6-739f-4868-adc1-014f6fc3dd2a",
+        "name": "Toulouse"
+    },
+    {
+        "_id":"5729c17d-85dc-4288-9e2d-f6b141b985e5",
+        "name": "Marseilles"
+    },
+    {
+        "_id":"e3778886-fb1f-4549-a7c0-b9a9a3561055",
+        "name": "Beijing"
+    },
+    {
+        "_id":"0679c32a-0ef4-4630-b60a-b80d84912542",
+        "name": "Shanghai"
+    },
+    {
+        "_id":"4374a403-3075-40e6-8292-6387f8242385",
+        "name": "Nanking"
+    },
+    {
+        "_id":"628df37f-53db-45ad-9c1a-d52113ac9b21",
+        "name": "Toronto"
+    },
+    {
+        "_id":"0c1830ea-a512-4189-bc0d-d1e827d21690",
+        "name": "Vancouver"
+    },
+    {
+        "_id":"5154cab0-0d02-41e3-a833-5a90b17824b6",
+        "name": "London"
+    },
+    {
+        "_id":"91a76671-9db4-48f0-a641-04254ebf979d",
+        "name": "Liverpool"
+    }
+]

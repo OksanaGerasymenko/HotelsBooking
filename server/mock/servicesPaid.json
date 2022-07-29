@@ -1,0 +1,16 @@
+[
+    {
+        "_id": "e230d182-aa71-494e-8b8a-dcd2faa7f4f7",
+        "name": "breakfast",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/cafe.png",
+        "priceAdult":100,
+        "priceChild":70
+    },
+    {
+        "_id": "b6cbe788-80b2-4287-8c47-703b879dedc2",
+        "name": "full board",
+        "image": "https://img.icons8.com/ultraviolet/40/000000/dining-room.png",
+        "priceAdult":400,
+        "priceChild":280
+    }
+]

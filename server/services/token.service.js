@@ -1,13 +1,12 @@
-const jet = require('jsonwebtoken')
+const jwt = require('jsonwebtoken')
 const config = require('config')
 const Token = require('../models/Token')
 
 
-    function generateToken(payload){
+    class TokenService {
+        generate(payload){
         const accessToken = jwt.sign(payload, config.get('accessSecret'), {expiresIn: '1h'})
-        console.log(accessToken)
         const refreshToken = jwt.sign(payload, config.get('refreshSecret'))
-        console.log(refreshToken)
         return {
             accessToken,
             refreshToken,
@@ -15,7 +14,7 @@ const Token = require('../models/Token')
         }
     }
 
-    async function saveToken(userId, refreshToken) {
+    async save(userId, refreshToken) {
         const data = await Token.findOne({userId})
         if (data) {
             data.refreshToken = refreshToken
@@ -25,4 +24,21 @@ const Token = require('../models/Token')
         return token
     }
 
-module.exports = {generateToken, saveToken}
+    validateRefresh(refreshToken){
+        try {
+        return jwt.verify(refreshToken, config.get('refreshSecret'))
+        } catch (err) {
+            return null
+        }
+    }
+
+    async findToken(refreshToken) {
+        try {
+            return await Token.findOne({refreshToken})
+        } catch (err) {
+            return null
+        }
+    }
+}
+
+module.exports = new TokenService()

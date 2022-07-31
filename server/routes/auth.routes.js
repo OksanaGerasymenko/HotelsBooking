@@ -3,7 +3,7 @@ const router = express.Router({ mergeParams: true })
 const User = require('../models/User')
 const bcrypt = require('bcryptjs')
 const {generateUserData} = require('../utils/helpers')
-const TokenService = require('../services/token.service')
+const tokenService = require('../services/token.service')
 const {check, validationResult} = require('express-validator')
 
 router.post('/signUp', [
@@ -33,8 +33,10 @@ router.post('/signUp', [
             }
 
             const hashedPassword = await bcrypt.hash(password, 12)
+            const list = await User.find()
+            const role = list.length? 'user' : 'admin'
             const userData = {
-                ...generateUserData(),
+                ...generateUserData(role),
                 ...req.body,
                 password: hashedPassword
 
@@ -42,8 +44,8 @@ router.post('/signUp', [
             
             const newUser = await User.create(userData)
 
-            const tokens = TokenService.generate({_id: newUser._id})
-            await TokenService.save(newUser._id, tokens.refreshToken)
+            const tokens = tokenService.generate({_id: newUser._id})
+            await tokenService.save(newUser._id, tokens.refreshToken)
 
             res.status(201).send({...tokens, userId: newUser._id})
         }catch(err) {
@@ -91,8 +93,8 @@ router.post('/signInWithPassword', [
                 })
             }
 
-            const tokens = TokenService.generate({_id:exitingUser._id})
-            await TokenService.save(exitingUser._id, tokens.refreshToken)
+            const tokens = tokenService.generate({_id:exitingUser._id})
+            await tokenService.save(exitingUser._id, tokens.refreshToken)
             res.status(200).send({...tokens, userId: exitingUser._id})
 
         } catch(err) {
@@ -107,15 +109,15 @@ router.post('/signInWithPassword', [
 router.post('/token', async (req, res) => {
     try{
         const {refresh_token: refreshToken} = req.body
-        const data = TokenService.validateRefresh(refreshToken)
-        const dbToken = await TokenService.findToken(refreshToken)
+        const data = tokenService.validateRefresh(refreshToken)
+        const dbToken = await tokenService.findToken(refreshToken)
 
         if(!data || !dbToken || data._id !== dbToken?.userId?.toString()) {
             return res.status(401).json({message: 'Unauthorized'})
         }
 
-        const tokens = TokenService.generate({_id: data._id})
-        await TokenService.save(data._id, tokens.refreshToken)
+        const tokens = tokenService.generate({_id: data._id})
+        await tokenService.save(data._id, tokens.refreshToken)
 
         res.status(200).send({...tokens, userId: data._id})
 

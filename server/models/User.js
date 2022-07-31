@@ -6,6 +6,7 @@ const schema = new Schema({
     email: {type: String, required: true, unique: true},
     password: String,
     contactInfo: String,
+    image: String,
     history: [{type: Schema.Types.ObjectId, ref: 'Booking'}],
     discount: Number,
     discountPersonalPercent: Number

@@ -16,6 +16,7 @@
         "role":"user",
         "email": "Jony7351@tw.com",
         "password": "b2C!9bmE",
+        "image": "",
         "contactInfo": "380661112233",
         "history": [],
         "discount": 50,
@@ -27,6 +28,7 @@
         "role":"user",
         "email": "white4571@twipet.com",
         "password": "NSF-kQ7p",
+        "image": "",
         "history": [],
         "discount": 0,
         "discountPersonalPercent": 3
@@ -37,6 +39,7 @@
         "role":"user",
         "email": "green7311@fam.biz",
         "password": "V7&Ks6D",
+        "image": "",
         "contactInfo": "380674445566",
         "history": [],
         "discount": 0,

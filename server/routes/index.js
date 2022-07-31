@@ -10,7 +10,6 @@ router.use('/hotel', require('./hotel.routes'))
 router.use('/room', require('./room.routes'))
 router.use('/serviceFree', require('./serviceFree.routes'))
 router.use('/servicePaid', require('./servicePaid.routes'))
-router.use('/token', require('./token.routes'))
 router.use('/user', require('./user.routes'))
 
 
